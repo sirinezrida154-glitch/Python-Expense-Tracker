@@ -48,6 +48,7 @@ def main():
         print("3. Afficher le total")
         print("4. Quitter")
         print("5. Delete an expense")
+        print("6.calculer le moyenne")
         choice = input("Votre choix : ")
 
         if choice == "1":
@@ -60,7 +61,8 @@ def main():
             print("Au revoir !")
         elif choice == "5":
             delete_expense()
-            break
+        elif choice== "6":
+            show_expenses()
         else:
             print("Choix invalide.")
             
